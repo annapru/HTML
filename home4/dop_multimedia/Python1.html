@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Программа на Python — часть 1</title>
+    </head>
+    <body>
+        <img align="right" alt="логотип Python" title="логотип Python"src="Icon-Python.png" >
+
+
+        <h1><strong>HOW-TO: Программа на Python, Часть 1</strong></h1> 
+        <ul>
+            <li> <a href="../home1/python1.html" target="_blank">Программа на Python — часть 1</a></li>
+            <li> <a href="../home1/python2.html" target="_blank">Программа на Python — часть 2</a></li>
+            <li> <a href="../home1/python3.html" target="_blank">Программа на Python — часть 3</a></li>
+        </ul>
+        <h2 id="3">Содержание</h2>
+        <h3>HOW-TO: Программа на Python, Часть 1</h3>
+        <ul>
+            <li><a href="#1">Наша первая программа</a></li>
+            <li><a href="#2">Пример цикла For</a></li>
+        </ul>
+        <p>Из множества существующих языков программирования 
+        Python — один из самых лёгких в изучении. Он создан
+        в конце 80-х годов XX века,но с тех пор он сильно 
+        изменился.Хотя Python входит в состав большинства 
+        дистрибутивов Linux, на него часто не обращают внимания
+        при выборе языка для изучения. В этой статье мы рассмотрим
+        создание консольных приложений,а в следующей — программирование 
+        графических интерфейсов <ins>(GUI)</ins>. Давайте создадим простую 
+        программу прямо сейчас.</p>
+
+        <h2 id="1">Наша первая программа</h2>
+        <p ><a href="#3">К содержанию</a></p>
+
+        <p>Наберём код в текстовом редакторе (например, в <strong>gedit</strong>).
+        Потом мы разберёмся, что делает каждая строка и пойдём дальше.</p>
+
+        <p>Введите эти 4 строки:</p>
+
+        <code>#!/usr/bin/env python<br>
+        print 'Hello. I am a python program.'<br>
+        name = raw_input("What is your name?")<br>
+        print "Hello there, " + name + "!"</code>
+
+        <p>Это всё. Сохраните файл как <strong>hello.py</strong> в любом месте. Я предлагаю
+        сохранить его в папке <strong>python_examples</strong>  в домашнем каталоге. Этот 
+        пример показывает, как просто написать программу на Python. Для 
+        запуска программы нужно сделать её файл исполняемым. Для этого 
+        введите в терминале</p>
+
+        <h4><strong><ins><em><dfn>chmod +x hello.py</dfn></em></ins></strong></h4>
+
+        <br> в папке, в которой вы сохранили программу. Теперь запустите её.
+
+        <p><code>greg@earth:~/python_examples$ ./hello.py<br>
+        Hello. I am a python program.<br>
+        What is your name? Ferd Burphel<br>
+        Hello there, Ferd Burphel!<br>
+        greg@earth:~/python_examples$</code></p>
+        <br>Вот и всё.
+        <h2 id="2">Пример цикла For</h2>
+        <p ><a href="#3">К содержанию</a></p>
+        <p>Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый
+        редактор и наберите следующую программу:</p>
+
+        <code>#!/usr/bin/env python<br>
+        for cntr in range(0,10):<br>
+        &nbsp&nbsp&nbsp&nbsp print cntr</code>
+
+        <p><em>Не забудьте поставить символ табуляции перед строкой «print cntr».</em> Это важно. В
+        Python для указания на блоки кода используются не круглые «(» и фигурные «{» скобки
+        как в других языках программирования, а отступы.</p>
+
+    <table width="100%">
+        <tr>
+            <th>
+                <a href="#" target="_blank">
+                    <button><img align="left" alt="переход на предыдущую страницу" title="переход на предыдущую страницу" src="prev.svg"></button>
+                </a>  
+            </th>
+            <th>
+                <a href="#">
+                    <button> <img align="center" alt="переход к верхнему" title="переход к верхнему" src="home.svg" ></button>
+                </a>
+            </th>
+            <th>
+                <a href="Python2.html" target="_blank"> 
+                    <button ><img align="right"  alt="переход на следующую страницу" title="переход на следующую страницу" src="next.svg"> </button>
+                </a> </th>
+            </tr>
+    </table>
+    </body>
+</html>
